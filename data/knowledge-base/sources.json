@@ -1,0 +1,37 @@
+[
+  {
+    "title": "IP India",
+    "category": "Intellectual Property",
+    "description": "Official information on patents, trademarks, designs and other intellectual property systems in India.",
+    "jurisdiction": "India",
+    "source": "https://ipindia.gov.in/"
+  },
+  {
+    "title": "Traditional Knowledge Digital Library",
+    "category": "Traditional Knowledge",
+    "description": "Information related to India's traditional knowledge and protection against inappropriate patent claims.",
+    "jurisdiction": "India",
+    "source": "https://www.tkdl.res.in/"
+  },
+  {
+    "title": "Ministry of Ayush",
+    "category": "Ayurveda Regulation",
+    "description": "Official information and resources related to Ayurveda and the AYUSH sector.",
+    "jurisdiction": "India",
+    "source": "https://www.ayush.gov.in/"
+  },
+  {
+    "title": "National Biodiversity Authority",
+    "category": "Biodiversity and ABS",
+    "description": "Official information concerning biological resources, biodiversity and access and benefit sharing in India.",
+    "jurisdiction": "India",
+    "source": "https://nbaindia.org/"
+  },
+  {
+    "title": "WIPO",
+    "category": "International Intellectual Property",
+    "description": "International intellectual property information, treaties and systems.",
+    "jurisdiction": "International",
+    "source": "https://www.wipo.int/"
+  }
+]
