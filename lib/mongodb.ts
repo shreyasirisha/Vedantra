@@ -3,7 +3,7 @@
 const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
-  throw new Error("MONGODB_URI is not defined in .env.local");
+  throw new Error("MONGODB_URI is not defined");
 }
 
 const globalWithMongoose = global as typeof globalThis & {
@@ -26,8 +26,7 @@ export async function connectDB() {
   }
 
   if (!cached.promise) {
-    const uri: string = MONGODB_URI;
-    cached.promise = mongoose.connect(uri);
+    cached.promise = mongoose.connect(MONGODB_URI!);
   }
 
   cached.conn = await cached.promise;
